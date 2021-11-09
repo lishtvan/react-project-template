@@ -1,5 +1,14 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
+import GlobalLayout from './containers/GlobalLayout';
 
-const App = () => <div className="text-blue-500">hello world!</div>;
+const App = () => {
+  return (
+    <>
+      <GlobalLayout />
+      <Outlet />
+    </>
+  );
+};
 
-export { App };
+export default App;
