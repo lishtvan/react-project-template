@@ -4,4 +4,4 @@ const Page404 = () => {
   return <div>Page not found!</div>;
 };
 
-export { Page404 };
+export default Page404;
