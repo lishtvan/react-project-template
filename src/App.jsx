@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import GlobalLayout from './containers/GlobalLayout';
+import GlobalLayout from './layout/GlobalLayout';
 
 const App = () => {
   return (
