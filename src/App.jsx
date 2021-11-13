@@ -5,8 +5,9 @@ import GlobalLayout from './layout/GlobalLayout';
 const App = () => {
   return (
     <>
-      <GlobalLayout />
-      <Outlet />
+      <GlobalLayout>
+        <Outlet />
+      </GlobalLayout>
     </>
   );
 };

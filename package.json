@@ -6,7 +6,7 @@
     "build": "vite build",
     "serve": "vite preview",
     "lint": "eslint src/**/*.js src/**/*.jsx",
-    "fmt": "prettier --write \"**/*.js\" \"**/*.jsx\" \"**/*.json\" \"**/*.md\" \"**/*.yml\" \"**/*.ts\""
+    "fmt": "prettier --write \"**/*.js\" \"**/*.jsx\" \"**/*.json\" \"**/*.md\" \"**/*.yml\""
   },
   "dependencies": {
     "history": "^5.1.0",
