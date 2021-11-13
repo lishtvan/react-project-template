@@ -9,6 +9,7 @@
     "plugin:react/recommended",
     "plugin:tailwind/recommended"
   ],
+  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
